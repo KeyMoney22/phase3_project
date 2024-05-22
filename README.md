@@ -9,13 +9,14 @@ The purpose of this analysis is to use classification modeling tecniques to accu
 ## Modeling
 The modeling process involves preprocessing the data, including handling missing values, encoding categorical variables, and feature engineering. We then split the data into training and testing sets and build a multiple linear regression model to predict house prices. The model utilizes various features to make predictions and is evaluated using metrics such as R-squared to assess its performance.
 
-## Regression Results
-The final model achieved an adjusted R-squared score of approximately 0.67. These scores indicate decent predictive performance, suggesting that the model captures a significant portion of the variance in house prices. 
+## Modeling Results
+Overall, The best perfoming classsication model is the Gradient Boosting Model with an accurancy of 80%. 
+Further, the random forest model performed well with an accuracy of 78%
 
-The model's coefficients provide insights into the relative importance of different features in determining house prices, which can be valuable for stakeholders in the real estate industry.
 
 ## Conclusion
-Overall, this project demonstrates the utility of multiple linear regression in predicting house prices based on various features. By leveraging data-driven insights, stakeholders can make more informed decisions regarding buying, selling, or investing in real estate. Moving forward, further refinements to the model and additional data sources could enhance its predictive accuracy and provide even more valuable insights for stakeholders in the housing market.
+Overall, this project demonstrates the utility of classification models in improving the predictive power of data. Classification models have allowed us to corretly predict by upto 80% if a water pump needs to be repaired. 
+
 
 
 
